@@ -30,5 +30,5 @@ subject = "Exchange_Rate"
 msg = "Current Exchange Rate is above the threshold, Right now it is " + Exchange_Rate
 threshold = 87.0
 
-if(float(Exchange_Rate) > threshold):
+if(float(Exchange_Rate) >= threshold):
     send_email(subject, msg)
