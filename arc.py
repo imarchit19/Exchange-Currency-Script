@@ -4,7 +4,7 @@ import config
 
 def RealTimeCurrencyExchangeRate() :
     import requests, json
-    req_ob = requests.get("https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=GBP&to_currency=INR&apikey=Q91KNQD5U1QCX3DY")
+    req_ob = requests.get("https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=GBP&to_currency=INR&apikey=***************")
     result = req_ob.json() 
     
     GBP_INR = result["Realtime Currency Exchange Rate"]['5. Exchange Rate']
