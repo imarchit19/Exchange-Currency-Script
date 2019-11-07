@@ -1,3 +1,3 @@
-EMAIL_ADDRESS = "architg186@gmail.com"
-PASSWORD = "def90ert41"
-RECIEVER_ADDRESS = "pranjalgupta35@gmail.com"
+EMAIL_ADDRESS = "*********@gmail.com"
+PASSWORD = "**********"
+RECIEVER_ADDRESS = "**************@gmail.com"
